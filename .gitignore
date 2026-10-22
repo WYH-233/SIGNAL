@@ -1,0 +1,31 @@
+# Study data, references, and generated outputs
+/data/**
+!/data/README.md
+/output/
+/results_reference/
+
+# Large model artifacts and caches
+*.pt
+*.pth
+*.ckpt
+*.rds
+*.arrow
+*.cool
+*.mcool
+*.hic
+*.bam
+*.cram
+*.fa
+*.fasta
+*.fastq
+*.fastq.gz
+*.tsv.gz
+*.mtx
+
+# Local environments and temporary files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
