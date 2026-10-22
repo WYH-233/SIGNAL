@@ -27,9 +27,6 @@ python -m pip install -r requirements.txt
 python SIGNAL.py --help
 ```
 
-The Python/R dependency versions have not yet been frozen into a complete tested environment. Record the versions used for the final manuscript release and publish an environment lock file or container definition with that release.
-
-The MD-KNN implementation in `input_preprocessing/tools/mdknn_1.py` uses `scipy.stats.itemfreq`, removed in SciPy 1.12. The environment therefore pins `scipy<1.12` unless that implementation is updated.
 
 ## Running the algorithm
 
